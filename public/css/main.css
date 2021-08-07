@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+  --main-color: #efc535;
+  --black-color: #000;
+}
+/* Main style */
+header{
+  background: var(--main-color);
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+button {
+    text-transform: uppercase;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 50px;
+    font-size: 24px;
+}
+p {
+    font-size: 17px;
+}
+/* Header */
+.nav-link {
+    text-transform: uppercase;
+    color: var(--black-color);
+    font-size: 24px;
+}
+.nav-link:hover, .nav-link:focus {
+    color: #fff;
+}
+ /* First section */
+ .top-section{
+   padding: 30px 0;
+ }
+.right-side {
+    margin-top: 20px;
+}
+.right-side h3, .right-side h4 {
+    font-size: 52px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+.right-side h1{
+  font-size: 283px;
+  font-weight: bold;
+  line-height: 200px;
+}
+.right-side h4{
+  color: #010100;
+}
+.right-side button{
+  background-color: var(--main-color);
+  color: var(--black-color);
+}
+/* Middle section */
+.middle-section{
+  background-color: var(--main-color);
+  padding: 30px 0;
+}
+.middle-section h1 {
+    text-transform: uppercase;
+    font-size: 99px;
+    font-weight: bold;
+}
+.middle-section span {
+    font-size: 70px;
+    letter-spacing: 0px;
+    border-bottom: 25px solid #f8fafc;
+    height: 70px;
+    margin-bottom: 23px;
+    display: inline-block;
+}
+.middle-section button{
+  background-color: #fff1c3;
+}
+
+/* Category section */
+.category-section{
+  padding: 30px 0;
+}
+.category-section h1 {
+    font-size: 141px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+.category-section .right-side h1, .drink-dessert-section h1 {
+    font-size: 84px;
+    line-height: 90px;
+    border-bottom: 25px solid #efc535;
+    height: 164px;
+    margin-bottom: 40px;
+    color: var(--black-color);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.meal, .drink-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.meal h3 {
+    font-size: 24px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.meal h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.first-row, .second-row{
+  margin-bottom: 40px;
+}
+.category-section .container{
+  border-bottom: 5px solid var(--main-color);
+}
+.drink-menu h3 {
+    font-weight: bold;
+}
+.dessert-img{
+  height: 439px;
+}
+
+/* offer pizza */
+.offer-section{
+  background: var(--main-color);
+  margin-top: 270px;
+  position: relative;
+  height: 600px;
+}
+.last-pizza-img {
+    position: absolute;
+    top: -230px;
+}
+.last-pizza-txt {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 80px;
+}
+.offer-section h1{
+  font-size: 316px;
+}
+.offer-section h1 {
+  font-size: 97px;
+  font-weight: bolder;
+}
+.offer-section span {
+    font-size: 60px;
+    font-weight: normal;
+}
+
+/* order section */
+.order-pizza{
+  padding: 40px 0;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.order-pizza h1{
+  font-size: 120px;
+  font-weight: bolder;
+  line-height: 100px;
+  margin-bottom: 100px;
+}
+.order-pizza h2{
+  font-size: 86px;
+  font-weight: bolder;
+  font-weight: normal;
+}
+.order-pizza h3{
+  font-size: 63px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.call-us{
+  color: var(--black-color);
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 60px;
+}
+.call-us::before {
+    content: "\e035";
+    font-family: 'Glyphicons Halflings';
+    padding-right: 20px;
+}
+.order-txt{
+  border-bottom: 5px solid var(--main-color);
+}
+.social-icons ul li {
+    display: inline-block;
+    float: right;
+}
+.copyright{
+  margin: 50px 0;
+}
+ footer{
+   border-bottom: 80px solid var(--main-color);
+ }
